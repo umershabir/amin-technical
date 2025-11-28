@@ -1,5 +1,5 @@
 "use client";
-import banner from "../public/images/banner.jpg";
+import banner from "../public/images/banner.webp";
 import { PHONE_NUMBER } from "@/lib/constants";
 
 export default function Hero() {
@@ -63,7 +63,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl">⭐</span>
-                <span>15+ Years Experience</span>
+                <span>14+ Years Experience</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-2xl">🏆</span>
