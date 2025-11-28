@@ -1,6 +1,3 @@
-import Image from "next/image";
-import payment from "../public/images/payment.png";
-
 export default function Footer() {
   return (
     <footer className="bg-black/90 text-white py-8 md:py-12">
