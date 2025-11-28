@@ -1,14 +1,14 @@
 "use client";
-
+import banner from "../public/images/banner.jpg";
 import { PHONE_NUMBER } from "@/lib/constants";
 
 export default function Hero() {
   return (
     <section
       className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-background via-accent to-background bg-cover bg-center"
-      style={{ backgroundImage: `url(https://placehold.co/1500x800)` }}
+      style={{ backgroundImage: `url(${banner.src})` }}
     >
-      <div className="absolute w-full h-full top-0 left-0 bg-black/50 z-10"></div>
+      <div className="absolute w-full h-full top-0 left-0 bg-black/60 z-10"></div>
       <div className="container mx-auto px-6 py-32 md:py-20 relative z-10">
         <div className="grid md:grid-cols-1 gap-12 items-center">
           {/* Text Content */}
@@ -56,7 +56,7 @@ export default function Hero() {
             </div>
 
             {/* Trust Badges */}
-            <div className="flex flex-wrap items-center gap-6 text-sm text-white/80">
+            <div className="flex flex-wrap items-center gap-6 text-sm text-white">
               <div className="flex items-center gap-2">
                 <span className="text-2xl">✓</span>
                 <span>Licensed & Insured</span>
