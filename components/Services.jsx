@@ -43,18 +43,17 @@ export default function Services() {
                     alt={service.title}
                     className="w-full h-full object-cover"
                   />
-                  <div className="absolute top-0 left-0 w-full h-full bg-black/50"></div>
-                  <h3 className="absolute z-10 centralized text-white text-3xl font-bold w-full text-center">
-                    {service.title}{" "}
-                    {/* <span className="text-sm font-normal text-foreground/60">
-                          ({service.tag})
-                        </span> */}
-                  </h3>
                 </div>
 
                 {/* Content Section */}
                 <div className="p-6 flex flex-col flex-grow">
                   {/* Title and Rating */}
+                  <h3 className="centralized text-black text-3xl font-bold w-full mb-4">
+                    {service.title}{" "}
+                    {/* <span className="text-sm font-normal text-foreground/60">
+                          ({service.tag})
+                        </span> */}
+                  </h3>
                   <div className="flex items-start justify-between mb-2">
                     <div className="flex-grow">
                       <h3 className="text-md text-foreground">
@@ -101,13 +100,6 @@ export default function Services() {
           })}
         </div>
       </div>
-      <style jsx="true">{`
-        .centralized {
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-        }
-      `}</style>
     </section>
   );
 }

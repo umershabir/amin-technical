@@ -104,39 +104,6 @@ export default function Portfolio() {
             </p>
           </div>
 
-          {/* Why Choose Us Section */}
-          {/* <div className="flex flex-col gap-5">
-            <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
-              Why Choose Us
-            </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              {stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className="group flex flex-col items-start gap-3 p-4 bg-gray-50 rounded-xl hover:bg-white 
-                           hover:shadow-lg transition-all duration-300"
-                >
-                  <div
-                    className="w-12 h-12 flex items-center justify-center rounded-xl text-white 
-                             shadow-md group-hover:scale-110 transition-transform duration-300"
-                    style={{ background: stat.color }}
-                  >
-                    <span>{stat.icon}</span>
-                  </div>
-                  <div className="flex flex-col gap-1">
-                    <h5 className="text-base md:text-lg font-bold text-gray-900">
-                      {stat.title}
-                    </h5>
-                    <p className="text-xs md:text-sm text-gray-600">
-                      {stat.subtitle}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div> */}
-
-          {/* Gallery Section */}
           {/* Gallery Section */}
           <div className="flex flex-col gap-5">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900">
@@ -155,7 +122,6 @@ export default function Portfolio() {
                     className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
                     layout="fill"
                   />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-300"></div>
                 </div>
               ))}
             </div>
