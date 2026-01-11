@@ -1,45 +1,58 @@
 import Image from "next/image";
-import image1 from "../public/images/project1.webp";
-import imageJPG from "../public/images/project1.jpg";
-import image2 from "../public/images/project2.webp";
-import image3 from "../public/images/project3.webp";
-import image4 from "../public/images/project4.webp";
-import image5 from "../public/images/project5.webp";
-import image6 from "../public/images/project6.webp";
-import image7 from "../public/images/project7.webp";
-import image8 from "../public/images/project8.webp";
-import image9 from "../public/images/project9.webp";
-import image10 from "../public/images/project10.webp";
-import image11 from "../public/images/project11.webp";
-import image12 from "../public/images/project12.webp";
-import image13 from "../public/images/project13.webp";
-import image14 from "../public/images/project14.webp";
-import image15 from "../public/images/project15.webp";
-import image16 from "../public/images/project16.webp";
-import image17 from "../public/images/project17.webp";
-import image18 from "../public/images/project18.webp";
 import { PHONE_NUMBER } from "@/lib/constants";
-import stats from "@/lib/data";
+// Importing images as variables from the projects folder
+import project3 from "../public/images/projects/project3.jpeg";
+import project4 from "../public/images/projects/project4.jpeg";
+import project5 from "../public/images/projects/project5.jpeg";
+import project6 from "../public/images/projects/project6.jpeg";
+import project7 from "../public/images/projects/project7.jpeg";
+import project8 from "../public/images/projects/project8.jpeg";
+import project9 from "../public/images/projects/project9.jpeg";
+import project10 from "../public/images/projects/project10.jpeg";
+import project11 from "../public/images/projects/project11.jpeg";
+import project12 from "../public/images/projects/project12.jpeg";
+import project13 from "../public/images/projects/project13.jpeg";
+import project14 from "../public/images/projects/project14.jpeg";
+import project15 from "../public/images/projects/project15.jpeg";
+import project16 from "../public/images/projects/project16.jpeg";
+import project19 from "../public/images/projects/project19.jpeg";
+import project20 from "../public/images/projects/project20.jpeg";
+import project21 from "../public/images/projects/project21.jpeg";
+import project22 from "../public/images/projects/project22.jpeg";
+import project23 from "../public/images/projects/project23.jpeg";
+import project24 from "../public/images/projects/project24.jpeg";
+import project25 from "../public/images/projects/project25.jpeg";
+import project26 from "../public/images/projects/project26.jpeg";
+import project27 from "../public/images/projects/project27.jpeg";
+import project28 from "../public/images/projects/project28.jpeg";
+import project29 from "../public/images/projects/project29.jpeg";
+
 const gallery = [
-  image1,
-  imageJPG,
-  image2,
-  image3,
-  image4,
-  image5,
-  image6,
-  image7,
-  image8,
-  image9,
-  image10,
-  image11,
-  image12,
-  image13,
-  image14,
-  image15,
-  image16,
-  image17,
-  image18,
+  project3,
+  project4,
+  project5,
+  project6,
+  project7,
+  project8,
+  project9,
+  project10,
+  project11,
+  project12,
+  project13,
+  project14,
+  project15,
+  project16,
+  project19,
+  project20,
+  project21,
+  project22,
+  project23,
+  project24,
+  project25,
+  project26,
+  project27,
+  project28,
+  project29,
 ];
 
 // const stats = [

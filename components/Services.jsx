@@ -89,7 +89,7 @@ export default function Services() {
                       href={whatsappLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="bg-secondary text-white px-6 py-2.5 rounded-lg font-semibold hover:bg-secondary/90 transition-all duration-300"
+                      className="bg-secondary text-black px-6 py-2.5 rounded-lg font-semibold hover:bg-secondary/90 transition-all duration-300"
                     >
                       Booking Now
                     </a>
